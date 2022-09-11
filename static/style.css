@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 40px;
+    background: palevioletred;
+    font-size: 28px;
+}
+#logo img{
+    height: 42px;
+    background-color: transparent;
+    /* background: transparent; */
+    /* filter: invert(1); */
+}
+#navbar{
+    background-color: palevioletred;
+    padding: 13px 14px;
+    font-family: 'Nunito';
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px 30px;
+    
+}
+#navbar li a:hover{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13px 20px;
+}
+#introsection{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/dancebg.avif");
+    height: 425px;
+    background-color: red;
+    font-family: 'Nunito';
+    font-size: 35px;
+}
+#introsection div.small{
+    font-size: 27px;
+}
+
+
+#sponsorsSection{
+   
+    height: 300px;
+    background-color: yellow;
+    font-family: 'Nunito';
+}
+#sponsorsSection h2{
+   text-align: center;
+   padding-top: 12px;
+  
+}
+.spImage{
+    height: 80%;
+    margin: 20px;
+}
+#sponsors{
+    height: 250px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+ /* #MissionSection{
+    height: 300px;
+    width: 67%;
+    margin: auto;
+} */
+#MissionSection h2{
+    text-align: center;
+   padding-top: 12px;
+   height: 300px;
+   /* background-color: yellow; */
+   font-family: 'Nunito';
+
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 209px;
+
+}
+.card h3{
+    text-align: center;
+    font-family: 'Nunito';
+    margin:0 12px;
+    margin-top: 15px ;
+}
+
+.cardbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+    background-color: transparent;
+
+}
+.cardcontent{
+    padding: 0 10px;
+}
+
+.cardcontent p{
+    font-family: 'Nunito';
+    font-size: 19px;
+    
+}
+#footer{
+    height: 60px;
+    background-color: black;
+    font-family: 'Nunito';
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px
+    
+    
+}

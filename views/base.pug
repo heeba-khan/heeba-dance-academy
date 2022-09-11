@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Heeba Dance Academy
+    block scripts
+    block style 
+    
+  body
+    nav#navbar 
+      ul
+        div#logo
+          img(src="/static/dance-logo-r.png")
+          | HDA 
+        li #[a(href="/") Home] 
+        li #[a(href="/") About] 
+        li #[a(href="/") Contact us]
+        li #[a(href="/") Services]
+        li #[a(href="/") Class info]
+    block content
+      footer#footer 
+      | Copyright 2019 HeebaDanceAcademy.com  | All Rights Reserved
