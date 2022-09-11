@@ -15,14 +15,14 @@ app.set('views', path.join(__dirname,'views'))//set the views directory
 app.get('/',(req,res)=>{
     const con ="This is the best content on internet so far so  use it wisely";
     const params={}
-    res.status(200).render('home.pug', params)
+    res.status(200).render('/github.io/home.pug', params)
 
 })
 
 app.get('/contact',(req,res)=>{
     const con ="This is the best content on internet so far so  use it wisely";
     const params={}
-    res.status(200).render('contact.pug', params)
+    res.status(200).render('/github.io/contact.pug', params)
 
 })
 
